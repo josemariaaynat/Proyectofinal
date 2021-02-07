@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+    {% block title %} Resumen OperacionesNueva Transacción {% endblock %}
+    {% block titulo2 %} Estado Inversión{% endblock %}
+
+    {% block contenido %}
+    <form action="nuevacompra" method="post">
+        {{ form.csrf_token }}
+        {% for error in mensajes %}
+        <p class="err-msg">
+                {{ error }}
+        </p>
+        {% endfor %}
+            <div class="field">
+                {{ form.totalinvertido.label }}
+                {{ form.totalinvertido(placeholder='Se mostrará la cantidad en uros invertidos', readonly="readonly") }}
+            </div>
+            <div class="field">
+                {{ form.valoractual.label }}
+                {{ form.valoractual(placeholder='Se mostrará el valor actual de su inversión', readonly="readonly") }}
+            </div>
+            <div class="field">
+                {{ form.neteo.label }}
+                {{ form.neteo(placeholder='Se mostrarán las perdidas o ganancias de sus inversiones', readonly="readonly") }}
+            </div>
+    
+    </form>
+    {% endblock %}

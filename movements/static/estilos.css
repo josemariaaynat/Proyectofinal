@@ -1,0 +1,56 @@
+.cabecera{
+    text-align: center
+    margin-top: 0;
+    font-family: 'Imbue', serif;
+    color:  #f0f8ff;
+    font-size: 36pt;
+    text-align: center
+ }
+main{
+    background-color: #14203a;
+    padding: 1px;
+    opacity: 1;
+    padding: 15px;
+    }
+
+.datos{
+    text-align: center;
+}
+
+    table{color: #f0f8ff;
+        text-align: center;
+        background-color: #14203a;}
+        
+    div{color: aliceblue;
+        text-align: center;
+    opacity: 1;
+    background-color: rgb(114, 177, 250)}
+
+    input,select{text-align: center}
+
+    footer{text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    color: rgb(114, 177, 250);}
+    
+    nav{
+        width:100%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    body {background-size: cover;
+        width: 95%;
+        margin: 3% auto;
+    }
+    
+    th,td{
+        color: aliceblue;
+        text-align: center;
+        }
+    p.hometown {
+        background-color: yellow;
+      }
+    p{justify-content: center;
+        color: rgb(255, 0, 0);
+    lighting-color: red;background-color: #14203a}
+

@@ -1,0 +1,9 @@
+venv/
+__pychache__/
+config.py
+__pycache__/run.cpython-38.pyc
+movements/__pycache__/
+.env
+.vscode/
+__pycache__/
+movements/data/basededatos.db
